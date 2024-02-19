@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 //import Header component with navigation bar
 
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 
 //import required pages
 
