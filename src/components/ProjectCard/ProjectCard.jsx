@@ -19,6 +19,7 @@ function ProjectCard(props){
                 {/* Conditionally render image or description based on isFlipped state */}
 
                 {isFlipped === false ? ( 
+                    
                                         <a><img title="Click me!" alt={props.title} src={props.image} className="card-img-top img-fluid p-2 rounded-5" /></a>
                
                                     ) 
