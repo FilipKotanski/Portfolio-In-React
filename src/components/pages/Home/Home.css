@@ -1,0 +1,38 @@
+#personal-statement{
+
+  font-family: "Verdana";
+
+  line-height: 2;
+
+}
+
+@keyframes gradient-animation {
+
+  0% {
+
+    border-color: rgb(22, 154, 186); /* Start color */
+
+  }
+
+  100% {
+
+    border-color: rgb(172, 255, 255); /* End color */
+
+  }
+
+}
+
+.frame {
+
+  position: relative;
+
+  padding: 30px;
+
+  border: 15px solid transparent; /* Set initial transparent border */
+
+  animation: gradient-animation 7s infinite alternate; /* Apply animation */
+  
+}
+
+
+  

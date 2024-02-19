@@ -1,0 +1,13 @@
+/* move sideboard to the edge of the screen by removing margin and padding */
+
+@media (min-width: 992px) {
+
+    .container{
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+    
+    }
+   
+  }

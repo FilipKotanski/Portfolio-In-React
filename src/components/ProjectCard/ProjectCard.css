@@ -1,0 +1,58 @@
+#portfolio-card{
+
+    height: 300px;
+
+    padding: 0 !important;
+
+    /* Apply smooth transition effects */
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+    
+}
+
+#portfolio-card:hover {
+
+    /* Expand the card a bit on hover */
+
+    transform: scale(1.05);
+    
+    /* Add a slight shadow for a raised effect */
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+    /* Reduce opacity to make it look blurred out */
+
+    opacity: 0.8; 
+
+}
+
+.card a, .card a img{
+
+    width: 100% !important;
+
+    height: 90% !important;
+
+    object-fit: cover !important;
+
+}
+
+.btn-primary {
+
+    /* Gradient background for primary button */
+    
+    background-image: linear-gradient(to right, steelblue, rgb(61, 161, 197), lightblue); /* Adjust colors as needed */
+
+    /* Add transition effect for background */
+
+    transition: background-image 0.3s ease; /* Add transition effect */
+
+}
+
+.btn-primary:hover {
+
+    /* Adjust colors on hover */
+
+    background-image: linear-gradient(to right, lightblue, rgb(61, 161, 197),  steelblue); /* Adjust colors as needed */
+
+}
+

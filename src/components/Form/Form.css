@@ -1,0 +1,43 @@
+.form {
+
+  margin: 20px;
+  
+}
+
+.form input {
+
+  display: block;
+
+  margin-top: 5px;
+
+  margin-bottom: 5px;
+  
+  width: 100%;
+  
+}
+
+.form textarea{
+
+  width: 100%;
+
+  resize: none;
+
+}
+
+.form button{
+
+  width:50%;
+
+}
+
+@media (max-width: 360px) {
+  
+  .form button{
+
+  width:100%;
+
+  }
+
+}
+
+  

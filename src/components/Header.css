@@ -1,0 +1,91 @@
+.navbar-nav {
+
+    /* Move the navbar links to the right */
+
+    margin-left: auto;
+
+}
+
+.navbar-brand img {
+
+  /* Adjust the width of the image */
+
+  width: 200px; 
+
+  /* Maintain aspect ratio */
+
+  height: auto; 
+
+  /* Make the image rounded */
+
+  border-radius: 50%; 
+
+}
+
+.navbar {
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); 
+
+}
+
+.bg-gradient {
+
+  /* colour transitions for navigation bar*/
+
+  background: linear-gradient(to bottom right, steelblue, lightblue, #f8f9fa) !important;
+
+}
+
+.nav-link {
+
+  font-size: 28px;
+
+}
+
+.nav-link:hover {
+
+  /* Change the font color on hover */
+
+  color: #ff0000; 
+
+  /* Add underline on hover */
+
+  text-decoration: underline; 
+
+}
+
+/*define spin animation for navigation bar image*/
+
+@keyframes spin {
+
+  from {
+
+      transform: rotateY(0deg);
+
+  }
+
+  to {
+
+      transform: rotateY(360deg);
+
+  }
+
+}
+
+.navbar-brand img:hover {
+
+    animation: spin 1s linear infinite;
+
+}
+
+/* adjust image position for bigger screens*/
+
+@media (min-width: 992px) {
+
+  .navbar-brand img{
+
+  margin-left: 10rem;
+
+  }
+
+}
