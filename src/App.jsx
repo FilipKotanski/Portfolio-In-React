@@ -29,7 +29,7 @@ function App() {
 
   return (
 
-    <HashRouter basename = "/Portfolio-In-React">
+    <Router basename = "/Portfolio-In-React">
 
       <Header />
 
@@ -55,7 +55,7 @@ function App() {
      
       </Routes>
 
-    </HashRouter>
+    </Router>
 
   );
 
