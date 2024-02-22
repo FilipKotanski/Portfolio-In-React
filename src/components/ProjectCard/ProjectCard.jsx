@@ -4,6 +4,8 @@ import "./ProjectCard.css";
 
 function ProjectCard(props){
 
+    const publicUrl = import.meta.env.VITE_PUBLIC_URL || '/';
+
     // State to manage whether the card is flipped or not
 
     const [isFlipped, setIsFlipped] = useState(false);
@@ -20,7 +22,7 @@ function ProjectCard(props){
 
                 {isFlipped === false ? ( 
                     
-                                        <img title="Click me!" alt={props.title} src={process.env.PUBLIC_URL + '/' + props.image} className="card-img-top img-fluid p-2 rounded-5" />
+                                        <img title="Click me!" alt={props.title} src={`${publicUrl}${image.path}`} className="card-img-top img-fluid p-2 rounded-5" />
                
                                     ) 
                                     
