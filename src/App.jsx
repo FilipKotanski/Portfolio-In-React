@@ -33,11 +33,11 @@ function App() {
 
       <Routes>    
 
-        <Route path="./" element={<Home />} />
+        <Route path="/" element={<Home />} />
 
-        <Route path="./projects" element={<Projects />} />
+        <Route path="/projects" element={<Projects />} />
 
-        <Route path="./contact" element={
+        <Route path="/contact" element={
                                       
                                         <div className="container">
                                                                                 
@@ -49,7 +49,7 @@ function App() {
 
       {/* Render a "Not Found" component for unknown routes */}
 
-        <Route path="./*" element={<NotFound />} /> 
+        <Route path="/*" element={<NotFound />} /> 
      
       </Routes>
 
