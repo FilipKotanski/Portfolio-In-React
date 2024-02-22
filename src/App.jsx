@@ -49,7 +49,7 @@ function App() {
 
       {/* Render a "Not Found" component for unknown routes */}
 
-        <Route path="/*" element={<NotFound />} /> 
+        <Route path="*" element={<NotFound />} /> 
      
       </Routes>
 
