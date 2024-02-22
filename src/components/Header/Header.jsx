@@ -33,7 +33,7 @@ function Header(){
                             
                             <Link className="navbar-brand" to="/">
                             
-                            <img src="tree\main\src\assets\images\snow_leopard.avif" alt="Your Logo" />
+                            <img src=".\src\assets\images\snowleopard.avif" alt="Snow leopard" />
                             
                             </Link> 
 
