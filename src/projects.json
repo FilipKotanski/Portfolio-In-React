@@ -12,7 +12,7 @@
         "title": "Weather App",
         "live_app_url": "https://filipkotanski.github.io/Weather-App/",
         "repository_url": "https://github.com/FilipKotanski/Weather-App",
-        "image": "src/assets/images/weather_dashboard.png",
+        "image": "./src/assets/images/weather_dashboard.png",
         "description": "A simple weather application that allows users to search and display current weather and 5-day forecast for a given location. This application runs in the browser and features dynamically updated HTML and CSS."
       },
       {
@@ -20,7 +20,7 @@
         "title": "Workday Scheduler",
         "live_app_url": "https://filipkotanski.github.io/Work-Day-Scheduler/",
         "repository_url": "https://github.com/FilipKotanski/Work-Day-Scheduler",
-        "image": "src/assets/images/work_day_scheduler_deleted.png",
+        "image": "./src/assets/images/work_day_scheduler_deleted.png",
         "description": "A simple calendar application that allows users to save and delete events for each hour of the day. This application runs in the browser and features dynamically updated HTML and CSS powered by jQuery. It uses the Day.js library for working with date and time."
       },
       {
@@ -28,7 +28,7 @@
         "title": "Coding Quiz",
         "live_app_url": "https://filipkotanski.github.io/Code-Quiz/",
         "repository_url": "https://github.com/FilipKotanski/Code-Quiz",
-        "image": "src/assets/images/coding_quiz.png",
+        "image": "./src/assets/images/coding_quiz.png",
         "description": "A simple timed JavaScript quiz for aspiring web developers utilising JavaScript ability to dynamically render HTML and CSS."
       },
       {
@@ -36,7 +36,7 @@
         "title": "Password Generator",
         "live_app_url": "https://filipkotanski.github.io/Password-Generator/",
         "repository_url": "https://github.com/FilipKotanski/Password-Generator",
-        "image": "src/assets/images/password_generator.png",
+        "image": "./src/assets/images/password_generator.png",
         "description": "This project is a password generator built with JavaScript. It provides users with the flexibility to customize their passwords by selecting various options, including special characters, numeric characters, lowercase and uppercase letters."
       },
       {
