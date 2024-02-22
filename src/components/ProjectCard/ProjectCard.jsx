@@ -20,7 +20,7 @@ function ProjectCard(props){
 
                 {isFlipped === false ? ( 
                     
-                                        <img title="Click me!" alt={props.title} src={props.image} className="card-img-top img-fluid p-2 rounded-5" />
+                                        <img title="Click me!" alt={props.title} src={process.env.PUBLIC_URL + '/' + props.image} className="card-img-top img-fluid p-2 rounded-5" />
                
                                     ) 
                                     
