@@ -33,7 +33,7 @@ function Header(){
                             
                             <Link className="navbar-brand" to="/">
                             
-                            <img src=".\src\assets\images\snowleopard.avif" alt="Snow leopard" />
+                            <img src="https://filipkotanski.github.io/Portfolio-In-React/images/snowleopard.avif" alt="Snow leopard" />
                             
                             </Link> 
 
