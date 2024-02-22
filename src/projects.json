@@ -44,8 +44,9 @@
         "title": "Portfolio",
         "live_app_url": "https://filipkotanski.github.io/Bootstrap-Portfolio/",
         "repository_url": "https://github.com/FilipKotanski/Bootstrap-Portfolio",
-        "image": "src/assets/images/portfolio.png",
+        "image": "blob/main/src/assets/images/portfolio.png",
         "description": "Hi all, I'm Filip, an aspiring front-end web developer with a keen eye for design. This portfolio serves as a showcase of my skills and projects, reflecting my commitment to creating engaging and user-friendly web experiences."
       }
 
 ]
+
