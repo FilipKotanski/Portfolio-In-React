@@ -20,7 +20,7 @@ function Footer() {
           
             <div className="col-12 col-sm-2 mb-3 mx-sm-auto text-center text-sm-left" id = "icon-container">
 
-              <a href="src\assets\Filip_Kotanski_CV.pdf">
+              <a href="https://filipkotanski.github.io/Portfolio-In-React/assets/FilipKotanskiCV.pdf">
                 
                 <FontAwesomeIcon icon={faFilePdf} size="3x" />
                 

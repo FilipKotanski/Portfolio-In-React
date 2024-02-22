@@ -22,7 +22,7 @@ function SideBar() {
 
           <div className="col-md-12 mt-4" id = "icon-container">
 
-            <a href="src\assets\Filip_Kotanski_CV.pdf"><FontAwesomeIcon icon={faFilePdf} size="3x" /></a>
+            <a href="https://filipkotanski.github.io/Portfolio-In-React/assets/FilipKotanskiCV.pdf"><FontAwesomeIcon icon={faFilePdf} size="3x" /></a>
           
           </div>
 
